@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652F1C451457515400F51494 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F1C441457515400F51494 /* Cocoa.framework */; };
+		652F1C4F1457515400F51494 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 652F1C4D1457515400F51494 /* InfoPlist.strings */; };
+		652F1C521457515400F51494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C511457515400F51494 /* main.m */; };
+		652F1C551457515400F51494 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 652F1C531457515400F51494 /* Credits.rtf */; };
+		652F1C581457515400F51494 /* TetrisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C571457515400F51494 /* TetrisAppDelegate.m */; };
+		652F1C5B1457515400F51494 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F1C591457515400F51494 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652F1C401457515400F51494 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		652F1C441457515400F51494 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		652F1C471457515400F51494 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		652F1C481457515400F51494 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		652F1C491457515400F51494 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		652F1C4C1457515400F51494 /* Tetris-Info.plist */ = {isa = PBXFileReference; path = "Tetris-Info.plist"; sourceTree = "<group>"; };
+		652F1C4E1457515400F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		652F1C501457515400F51494 /* Tetris-Prefix.pch */ = {isa = PBXFileReference; path = "Tetris-Prefix.pch"; sourceTree = "<group>"; };
+		652F1C511457515400F51494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		652F1C541457515400F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		652F1C561457515400F51494 /* TetrisAppDelegate.h */ = {isa = PBXFileReference; path = TetrisAppDelegate.h; sourceTree = "<group>"; };
+		652F1C571457515400F51494 /* TetrisAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisAppDelegate.m; sourceTree = "<group>"; };
+		652F1C5A1457515400F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652F1C3D1457515400F51494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652F1C451457515400F51494 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652F1C351457515300F51494 = {
+			isa = PBXGroup;
+			children = (
+				652F1C4A1457515400F51494 /* Tetris */,
+				652F1C431457515400F51494 /* Frameworks */,
+				652F1C411457515400F51494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		652F1C411457515400F51494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652F1C401457515400F51494 /* Tetris.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652F1C431457515400F51494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				652F1C441457515400F51494 /* Cocoa.framework */,
+				652F1C461457515400F51494 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		652F1C461457515400F51494 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				652F1C471457515400F51494 /* AppKit.framework */,
+				652F1C481457515400F51494 /* CoreData.framework */,
+				652F1C491457515400F51494 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		652F1C4A1457515400F51494 /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				652F1C561457515400F51494 /* TetrisAppDelegate.h */,
+				652F1C571457515400F51494 /* TetrisAppDelegate.m */,
+				652F1C591457515400F51494 /* MainMenu.xib */,
+				652F1C4B1457515400F51494 /* Supporting Files */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		652F1C4B1457515400F51494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				652F1C4C1457515400F51494 /* Tetris-Info.plist */,
+				652F1C4D1457515400F51494 /* InfoPlist.strings */,
+				652F1C501457515400F51494 /* Tetris-Prefix.pch */,
+				652F1C511457515400F51494 /* main.m */,
+				652F1C531457515400F51494 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652F1C3F1457515400F51494 /* Tetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652F1C5E1457515400F51494 /* Build configuration list for PBXNativeTarget "Tetris" */;
+			buildPhases = (
+				652F1C3C1457515400F51494 /* Sources */,
+				652F1C3D1457515400F51494 /* Frameworks */,
+				652F1C3E1457515400F51494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetris;
+			productName = Tetris;
+			productReference = 652F1C401457515400F51494 /* Tetris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652F1C371457515300F51494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = AdNovum;
+			};
+			buildConfigurationList = 652F1C3A1457515300F51494 /* Build configuration list for PBXProject "Tetris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 652F1C351457515300F51494;
+			productRefGroup = 652F1C411457515400F51494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652F1C3F1457515400F51494 /* Tetris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652F1C3E1457515400F51494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652F1C4F1457515400F51494 /* InfoPlist.strings in Resources */,
+				652F1C551457515400F51494 /* Credits.rtf in Resources */,
+				652F1C5B1457515400F51494 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652F1C3C1457515400F51494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652F1C521457515400F51494 /* main.m in Sources */,
+				652F1C581457515400F51494 /* TetrisAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		652F1C4D1457515400F51494 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652F1C4E1457515400F51494 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		652F1C531457515400F51494 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652F1C541457515400F51494 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		652F1C591457515400F51494 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652F1C5A1457515400F51494 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652F1C5C1457515400F51494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		652F1C5D1457515400F51494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		652F1C5F1457515400F51494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetris/Tetris-Prefix.pch";
+				INFOPLIST_FILE = "Tetris/Tetris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		652F1C601457515400F51494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetris/Tetris-Prefix.pch";
+				INFOPLIST_FILE = "Tetris/Tetris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652F1C3A1457515300F51494 /* Build configuration list for PBXProject "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652F1C5C1457515400F51494 /* Debug */,
+				652F1C5D1457515400F51494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652F1C5E1457515400F51494 /* Build configuration list for PBXNativeTarget "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652F1C5F1457515400F51494 /* Debug */,
+				652F1C601457515400F51494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 652F1C371457515300F51494 /* Project object */;
+}
