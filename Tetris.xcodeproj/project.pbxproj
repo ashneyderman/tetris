@@ -11,8 +11,23 @@
 		652F1C4F1457515400F51494 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 652F1C4D1457515400F51494 /* InfoPlist.strings */; };
 		652F1C521457515400F51494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C511457515400F51494 /* main.m */; };
 		652F1C551457515400F51494 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 652F1C531457515400F51494 /* Credits.rtf */; };
-		652F1C581457515400F51494 /* TetrisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C571457515400F51494 /* TetrisAppDelegate.m */; };
-		652F1C5B1457515400F51494 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F1C591457515400F51494 /* MainMenu.xib */; };
+		652F1C7F145751F400F51494 /* KeyEventsListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C61145751F400F51494 /* KeyEventsListener.m */; };
+		652F1C80145751F400F51494 /* GameField.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C62145751F400F51494 /* GameField.m */; };
+		652F1C81145751F400F51494 /* RowReorderingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C63145751F400F51494 /* RowReorderingItem.m */; };
+		652F1C82145751F400F51494 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C65145751F400F51494 /* Cell.m */; };
+		652F1C83145751F400F51494 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C67145751F400F51494 /* Game.m */; };
+		652F1C84145751F400F51494 /* CurrentShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C69145751F400F51494 /* CurrentShape.m */; };
+		652F1C85145751F400F51494 /* GameFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C6A145751F400F51494 /* GameFieldView.m */; };
+		652F1C88145751F400F51494 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F1C71145751F400F51494 /* MainMenu.xib */; };
+		652F1C89145751F400F51494 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C76145751F400F51494 /* Shape.m */; };
+		652F1C8A145751F400F51494 /* ModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C77145751F400F51494 /* ModelTests.m */; };
+		652F1C8B145751F400F51494 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C7A145751F400F51494 /* ApplicationDelegate.m */; };
+		652F1C8C145751F400F51494 /* GameScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C7B145751F400F51494 /* GameScore.m */; };
+		652F1C8D145751F400F51494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1C7E145751F400F51494 /* main.m */; };
+		652F1C9D1457534D00F51494 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F1C441457515400F51494 /* Cocoa.framework */; };
+		652F1CA31457534E00F51494 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 652F1CA11457534E00F51494 /* InfoPlist.strings */; };
+		652F1CA61457534E00F51494 /* TetrisTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 652F1CA51457534E00F51494 /* TetrisTests.h */; };
+		652F1CA81457534E00F51494 /* TetrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F1CA71457534E00F51494 /* TetrisTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +36,41 @@
 		652F1C471457515400F51494 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		652F1C481457515400F51494 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		652F1C491457515400F51494 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		652F1C4C1457515400F51494 /* Tetris-Info.plist */ = {isa = PBXFileReference; path = "Tetris-Info.plist"; sourceTree = "<group>"; };
+		652F1C4C1457515400F51494 /* Tetris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tetris-Info.plist"; sourceTree = "<group>"; };
 		652F1C4E1457515400F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		652F1C501457515400F51494 /* Tetris-Prefix.pch */ = {isa = PBXFileReference; path = "Tetris-Prefix.pch"; sourceTree = "<group>"; };
+		652F1C501457515400F51494 /* Tetris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tetris-Prefix.pch"; sourceTree = "<group>"; };
 		652F1C511457515400F51494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		652F1C541457515400F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		652F1C561457515400F51494 /* TetrisAppDelegate.h */ = {isa = PBXFileReference; path = TetrisAppDelegate.h; sourceTree = "<group>"; };
-		652F1C571457515400F51494 /* TetrisAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisAppDelegate.m; sourceTree = "<group>"; };
-		652F1C5A1457515400F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		652F1C61145751F400F51494 /* KeyEventsListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyEventsListener.m; path = ../KeyEventsListener.m; sourceTree = "<group>"; };
+		652F1C62145751F400F51494 /* GameField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameField.m; path = ../GameField.m; sourceTree = "<group>"; };
+		652F1C63145751F400F51494 /* RowReorderingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RowReorderingItem.m; path = ../RowReorderingItem.m; sourceTree = "<group>"; };
+		652F1C64145751F400F51494 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = ../Cell.h; sourceTree = "<group>"; };
+		652F1C65145751F400F51494 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = ../Cell.m; sourceTree = "<group>"; };
+		652F1C66145751F400F51494 /* RowReorderingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RowReorderingItem.h; path = ../RowReorderingItem.h; sourceTree = "<group>"; };
+		652F1C67145751F400F51494 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		652F1C68145751F400F51494 /* GameField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameField.h; path = ../GameField.h; sourceTree = "<group>"; };
+		652F1C69145751F400F51494 /* CurrentShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrentShape.m; path = ../CurrentShape.m; sourceTree = "<group>"; };
+		652F1C6A145751F400F51494 /* GameFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameFieldView.m; path = ../GameFieldView.m; sourceTree = "<group>"; };
+		652F1C6B145751F400F51494 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		652F1C72145751F400F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		652F1C73145751F400F51494 /* CurrentShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrentShape.h; path = ../CurrentShape.h; sourceTree = "<group>"; };
+		652F1C74145751F400F51494 /* GameFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameFieldView.h; path = ../GameFieldView.h; sourceTree = "<group>"; };
+		652F1C75145751F400F51494 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = ../Shape.h; sourceTree = "<group>"; };
+		652F1C76145751F400F51494 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shape.m; path = ../Shape.m; sourceTree = "<group>"; };
+		652F1C77145751F400F51494 /* ModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelTests.m; path = ../ModelTests.m; sourceTree = "<group>"; };
+		652F1C78145751F400F51494 /* ModelTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelTests.h; path = ../ModelTests.h; sourceTree = "<group>"; };
+		652F1C79145751F400F51494 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationDelegate.h; path = ../ApplicationDelegate.h; sourceTree = "<group>"; };
+		652F1C7A145751F400F51494 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationDelegate.m; path = ../ApplicationDelegate.m; sourceTree = "<group>"; };
+		652F1C7B145751F400F51494 /* GameScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScore.m; path = ../GameScore.m; sourceTree = "<group>"; };
+		652F1C7C145751F400F51494 /* GameScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScore.h; path = ../GameScore.h; sourceTree = "<group>"; };
+		652F1C7D145751F400F51494 /* KeyEventsListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyEventsListener.h; path = ../KeyEventsListener.h; sourceTree = "<group>"; };
+		652F1C7E145751F400F51494 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		652F1C9C1457534D00F51494 /* TetrisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652F1CA01457534E00F51494 /* TetrisTests-Info.plist */ = {isa = PBXFileReference; path = "TetrisTests-Info.plist"; sourceTree = "<group>"; };
+		652F1CA21457534E00F51494 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		652F1CA41457534E00F51494 /* TetrisTests-Prefix.pch */ = {isa = PBXFileReference; path = "TetrisTests-Prefix.pch"; sourceTree = "<group>"; };
+		652F1CA51457534E00F51494 /* TetrisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrisTests.h; sourceTree = "<group>"; };
+		652F1CA71457534E00F51494 /* TetrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +82,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		652F1C981457534D00F51494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652F1C9D1457534D00F51494 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				652F1C4A1457515400F51494 /* Tetris */,
+				652F1C9E1457534E00F51494 /* TetrisTests */,
 				652F1C431457515400F51494 /* Frameworks */,
 				652F1C411457515400F51494 /* Products */,
 			);
@@ -56,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				652F1C401457515400F51494 /* Tetris.app */,
+				652F1C9C1457534D00F51494 /* TetrisTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +134,29 @@
 		652F1C4A1457515400F51494 /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
-				652F1C561457515400F51494 /* TetrisAppDelegate.h */,
-				652F1C571457515400F51494 /* TetrisAppDelegate.m */,
-				652F1C591457515400F51494 /* MainMenu.xib */,
+				652F1C73145751F400F51494 /* CurrentShape.h */,
+				652F1C74145751F400F51494 /* GameFieldView.h */,
+				652F1C75145751F400F51494 /* Shape.h */,
+				652F1C76145751F400F51494 /* Shape.m */,
+				652F1C77145751F400F51494 /* ModelTests.m */,
+				652F1C78145751F400F51494 /* ModelTests.h */,
+				652F1C79145751F400F51494 /* ApplicationDelegate.h */,
+				652F1C7A145751F400F51494 /* ApplicationDelegate.m */,
+				652F1C7B145751F400F51494 /* GameScore.m */,
+				652F1C7C145751F400F51494 /* GameScore.h */,
+				652F1C7D145751F400F51494 /* KeyEventsListener.h */,
+				652F1C7E145751F400F51494 /* main.m */,
+				652F1C61145751F400F51494 /* KeyEventsListener.m */,
+				652F1C62145751F400F51494 /* GameField.m */,
+				652F1C63145751F400F51494 /* RowReorderingItem.m */,
+				652F1C64145751F400F51494 /* Cell.h */,
+				652F1C65145751F400F51494 /* Cell.m */,
+				652F1C66145751F400F51494 /* RowReorderingItem.h */,
+				652F1C67145751F400F51494 /* Game.m */,
+				652F1C68145751F400F51494 /* GameField.h */,
+				652F1C69145751F400F51494 /* CurrentShape.m */,
+				652F1C6A145751F400F51494 /* GameFieldView.m */,
+				652F1C6B145751F400F51494 /* Game.h */,
 				652F1C4B1457515400F51494 /* Supporting Files */,
 			);
 			path = Tetris;
@@ -93,11 +165,32 @@
 		652F1C4B1457515400F51494 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				652F1C71145751F400F51494 /* MainMenu.xib */,
 				652F1C4C1457515400F51494 /* Tetris-Info.plist */,
 				652F1C4D1457515400F51494 /* InfoPlist.strings */,
 				652F1C501457515400F51494 /* Tetris-Prefix.pch */,
 				652F1C511457515400F51494 /* main.m */,
 				652F1C531457515400F51494 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		652F1C9E1457534E00F51494 /* TetrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				652F1CA51457534E00F51494 /* TetrisTests.h */,
+				652F1CA71457534E00F51494 /* TetrisTests.m */,
+				652F1C9F1457534E00F51494 /* Supporting Files */,
+			);
+			path = TetrisTests;
+			sourceTree = "<group>";
+		};
+		652F1C9F1457534E00F51494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				652F1CA01457534E00F51494 /* TetrisTests-Info.plist */,
+				652F1CA11457534E00F51494 /* InfoPlist.strings */,
+				652F1CA41457534E00F51494 /* TetrisTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +215,24 @@
 			productReference = 652F1C401457515400F51494 /* Tetris.app */;
 			productType = "com.apple.product-type.application";
 		};
+		652F1C9B1457534D00F51494 /* TetrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652F1CA91457534E00F51494 /* Build configuration list for PBXNativeTarget "TetrisTests" */;
+			buildPhases = (
+				652F1C971457534D00F51494 /* Sources */,
+				652F1C981457534D00F51494 /* Frameworks */,
+				652F1C991457534D00F51494 /* Resources */,
+				652F1C9A1457534D00F51494 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetrisTests;
+			productName = TetrisTests;
+			productReference = 652F1C9C1457534D00F51494 /* TetrisTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -143,6 +254,7 @@
 			projectRoot = "";
 			targets = (
 				652F1C3F1457515400F51494 /* Tetris */,
+				652F1C9B1457534D00F51494 /* TetrisTests */,
 			);
 		};
 /* End PBXProject section */
@@ -154,11 +266,36 @@
 			files = (
 				652F1C4F1457515400F51494 /* InfoPlist.strings in Resources */,
 				652F1C551457515400F51494 /* Credits.rtf in Resources */,
-				652F1C5B1457515400F51494 /* MainMenu.xib in Resources */,
+				652F1C88145751F400F51494 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652F1C991457534D00F51494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652F1CA31457534E00F51494 /* InfoPlist.strings in Resources */,
+				652F1CA61457534E00F51494 /* TetrisTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		652F1C9A1457534D00F51494 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		652F1C3C1457515400F51494 /* Sources */ = {
@@ -166,7 +303,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				652F1C521457515400F51494 /* main.m in Sources */,
-				652F1C581457515400F51494 /* TetrisAppDelegate.m in Sources */,
+				652F1C7F145751F400F51494 /* KeyEventsListener.m in Sources */,
+				652F1C80145751F400F51494 /* GameField.m in Sources */,
+				652F1C81145751F400F51494 /* RowReorderingItem.m in Sources */,
+				652F1C82145751F400F51494 /* Cell.m in Sources */,
+				652F1C83145751F400F51494 /* Game.m in Sources */,
+				652F1C84145751F400F51494 /* CurrentShape.m in Sources */,
+				652F1C85145751F400F51494 /* GameFieldView.m in Sources */,
+				652F1C89145751F400F51494 /* Shape.m in Sources */,
+				652F1C8A145751F400F51494 /* ModelTests.m in Sources */,
+				652F1C8B145751F400F51494 /* ApplicationDelegate.m in Sources */,
+				652F1C8C145751F400F51494 /* GameScore.m in Sources */,
+				652F1C8D145751F400F51494 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652F1C971457534D00F51494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652F1CA81457534E00F51494 /* TetrisTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +345,21 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		652F1C591457515400F51494 /* MainMenu.xib */ = {
+		652F1C71145751F400F51494 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				652F1C5A1457515400F51494 /* en */,
+				652F1C72145751F400F51494 /* en */,
 			);
 			name = MainMenu.xib;
+			path = ../en.lproj;
+			sourceTree = "<group>";
+		};
+		652F1CA11457534E00F51494 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652F1CA21457534E00F51494 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +427,46 @@
 			};
 			name = Release;
 		};
+		652F1CAA1457534E00F51494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TetrisTests/TetrisTests-Prefix.pch";
+				INFOPLIST_FILE = "TetrisTests/TetrisTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		652F1CAB1457534E00F51494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TetrisTests/TetrisTests-Prefix.pch";
+				INFOPLIST_FILE = "TetrisTests/TetrisTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +484,15 @@
 			buildConfigurations = (
 				652F1C5F1457515400F51494 /* Debug */,
 				652F1C601457515400F51494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652F1CA91457534E00F51494 /* Build configuration list for PBXNativeTarget "TetrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652F1CAA1457534E00F51494 /* Debug */,
+				652F1CAB1457534E00F51494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

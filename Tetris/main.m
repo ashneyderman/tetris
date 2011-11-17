@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Tetris
+//  Detris
 //
-//  Created by Aleksandr Shneyderman on 10/25/11.
+//  Created by Aleksandr Shneyderman on 9/14/11.
 //  Copyright 2011 AdNovum. All rights reserved.
 //
 
